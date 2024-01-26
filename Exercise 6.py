@@ -10,3 +10,9 @@ def print_divisible_by_5(nums):
         if num % 5 == 0:
             # Print the number if divisible by 5
             print(num)
+
+# Given list of numbers
+numbers_list = [10, 20, 33, 46, 55]
+
+# Call the function with the given list
+print_divisible_by_5(numbers_list)
